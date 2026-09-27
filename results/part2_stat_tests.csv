@@ -1,0 +1,43 @@
+LACS vs,Metric,Mean diff,t (corrected),p (corrected t),p (Wilcoxon)
+Paper stacking (baseline),Accuracy,0.0149,0.907,0.3689,0.0051
+Paper stacking (baseline),Precision,0.0084,0.531,0.5981,0.055
+Paper stacking (baseline),Recall,0.0188,0.861,0.3932,0.0031
+Paper stacking (baseline),F1,0.0133,0.9,0.3727,0.0037
+Paper stacking (baseline),AUC,0.0074,0.786,0.4356,0.0126
+Paper stacking (baseline),LogLoss,-0.0207,-1.161,0.2514,0.0002
+Paper stacking (baseline),Brier,-0.0068,-0.997,0.3237,0.0022
+Paper best single (RF),Accuracy,0.0288,1.463,0.1498,0.0
+Paper best single (RF),Precision,0.02,1.081,0.285,0.0005
+Paper best single (RF),Recall,0.0328,1.237,0.222,0.0001
+Paper best single (RF),F1,0.0262,1.46,0.1507,0.0
+Paper best single (RF),AUC,0.0101,1.158,0.2526,0.0003
+Paper best single (RF),LogLoss,-0.0296,-1.668,0.1017,0.0
+Paper best single (RF),Brier,-0.0112,-2.337,0.0236,0.0
+Ablation: paper stacking + clinical enc.,Accuracy,0.0106,0.747,0.4587,0.0139
+Ablation: paper stacking + clinical enc.,Precision,0.0026,0.226,0.8218,0.3017
+Ablation: paper stacking + clinical enc.,Recall,0.02,0.951,0.3461,0.0023
+Ablation: paper stacking + clinical enc.,F1,0.0106,0.77,0.4449,0.0069
+Ablation: paper stacking + clinical enc.,AUC,0.006,0.888,0.3787,0.0028
+Ablation: paper stacking + clinical enc.,LogLoss,-0.0114,-1.185,0.2417,0.0001
+Ablation: paper stacking + clinical enc.,Brier,-0.0025,-0.744,0.4606,0.0103
+Ablation: uniform soft vote,Accuracy,0.002,0.268,0.7899,0.7189
+Ablation: uniform soft vote,Precision,0.0028,0.535,0.5953,0.1306
+Ablation: uniform soft vote,Recall,-0.0,-0.002,0.9988,0.7545
+Ablation: uniform soft vote,F1,0.0014,0.204,0.8388,0.5762
+Ablation: uniform soft vote,AUC,0.0004,0.158,0.8748,0.7001
+Ablation: uniform soft vote,LogLoss,-0.0009,-0.25,0.8034,0.4548
+Ablation: uniform soft vote,Brier,-0.0006,-0.398,0.6927,0.2653
+"Ablation: convex, no shrinkage",Accuracy,-0.003,-0.289,0.7741,0.2565
+"Ablation: convex, no shrinkage",Precision,-0.0049,-0.442,0.6605,0.158
+"Ablation: convex, no shrinkage",Recall,0.0012,0.103,0.9187,0.5634
+"Ablation: convex, no shrinkage",F1,-0.0022,-0.237,0.8139,0.5538
+"Ablation: convex, no shrinkage",AUC,0.0011,0.488,0.6275,0.0964
+"Ablation: convex, no shrinkage",LogLoss,-0.0014,-0.387,0.7005,0.1943
+"Ablation: convex, no shrinkage",Brier,-0.0005,-0.367,0.7148,0.1208
+Ablation: clinical LR only,Accuracy,-0.0086,-0.748,0.4578,0.0284
+Ablation: clinical LR only,Precision,-0.0083,-0.643,0.523,0.0177
+Ablation: clinical LR only,Recall,-0.0067,-0.462,0.646,0.0937
+Ablation: clinical LR only,F1,-0.0077,-0.744,0.4603,0.0232
+Ablation: clinical LR only,AUC,-0.0033,-0.758,0.4522,0.015
+Ablation: clinical LR only,LogLoss,0.0057,0.835,0.4079,0.0024
+Ablation: clinical LR only,Brier,0.0022,0.898,0.3735,0.0024
